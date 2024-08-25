@@ -1,4 +1,4 @@
-# praca-dyplomowa
+# Wprowadzenie
 
 Celem pracy jest stworzenie prototypowego systemu pozwalającego na automatyczne wykrywanie i tłumaczenie tekstów występujących na zapisach video z gier (tzw. gameplays).
 
@@ -15,7 +15,7 @@ Prace będą składały się z następujących zadań głównych:
 • ewaluacja możliwości prototypu systemu, zaproponowanie dalszych kierunków prac oraz potencjalnych zastosowań w edukacji.
 
 
-Opis plików:
+# Opis plików:
 
 Pliki aplikacja.py, badanie_czasu.py, bleu_from_csv.py, t5_large_spell_test dotyczą ostatecznej wersji aplikacji, testów końcowych, a także testu modelu t5_large_spell. W celu uruchomienia kodu należy zainstalować niezbędne biblioteki (plik requirements_aplikacja.txt)
 
@@ -25,8 +25,7 @@ Plik kerasocr_test_na_zdjeciach.py dotyczy testu biblioteki KerasOCR na pojedync
 
 Pliki MT5.ipynb i convolutional_model_by_fairseq.ipynb służą testom bibliotek i modeli do tłumaczenia tekstu. Testy wykonywane na bazie danych pobranej ze strony tatoeba.org. Niezbędne biblioteki są po uruchomieniu kolejnych części pliku Jupyter Notebook. Kod uruchomiono z użyciem platformy Google Colaboratory.
 
-
-
+# Wymagania sprzętowe
 W przypadku budowy aplikacji wykorzystano komputer z kartą graficzną (GPU) Nvidia
 Geforce RTX 3070 Ti i pamięcią RAM 32 GB. System operacyjny zainstalowany
 na komputerze to Windows 10. W celu uruchomienia programu z użyciem karty graficznej
